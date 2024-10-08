@@ -186,7 +186,7 @@ nav.primary ul{
   flex-direction:column;
   gap:10px;
   max-width: 250px;
-  margin:20px auto;
+  margin:10px auto;
 }
 
 nav.primary ul a{
@@ -200,7 +200,7 @@ aside.container{
 
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:500px){
   #content{
     flex-direction:column;
   }
