@@ -25,6 +25,30 @@ img{
   margin: 40px auto;
 }
 
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border:1px solid #ccc;
+  padding:5px;
+  border-radius:50px;
+}
+
+.img-left{
+  float:left;
+  margin:10px 20px 10px 0;
+  border:1px solid #ccc;
+  padding:5px;
+  border-radius:50px;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border:1px solid #ccc;
+  padding:5px;
+  border-radius:50px;
+}
+
 
 
   /*  ---------------Global Styles-----------------  */
@@ -141,6 +165,65 @@ time.post.date, figcaption{
 #content article.post figure{
   margin:0;
 }
+
+#practice h2{
+  color: #F23D5E;
+  border-bottom: 1px dotted #c0c0c0;
+}
+
+#practice a{
+  color: #F23D5E;
+  transition: .4s;
+}
+
+#practice a:hover{
+  text-decoration:none;
+  transition: .4s;
+}
+
+#practice h3{
+  border-left: 5px solid #f2e30c;
+  padding:7.5px 0 7.5px 10px;
+}
+
+table{
+  width:100%;
+  border: 1px solid #cccccc;
+  margin:20px 0;
+  border-collapse:collapse;
+}
+caption{
+  font-weight:bold;
+  margin:10px;
+}
+tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+tr:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+th{
+  background-color: #f2cc0c;
+  color:#000000;
+  padding:7.5px;
+}
+td{
+  border:1px solid #cccccc;
+  padding:5px;
+}
+
+
+td:nth-child(2), td:nth-child(3){
+
+}
+
+td:nth-child(n+2){
+  text-align:right;
+}
+
+
 
 aside[role="complementary"]{
   background-color:#3565F2;
