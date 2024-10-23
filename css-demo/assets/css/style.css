@@ -224,6 +224,47 @@ td:nth-child(n+2){
 }
 
 
+#practice ol{
+  list-style-type:upper-roman;
+}
+
+#practice ul{
+  list-style-type:square;
+}
+
+#practice ul li ul{
+  list-style-type: circle;
+}
+
+#practice dt{
+  font-weight: bold;
+}
+
+#practice dd{
+  margin:0;
+}
+
+dd + dt{
+  margin-top:1rem;
+}
+
+blockquote{
+  border: 4px double #cccccc;
+  padding: 20 px 40px;
+  background-color: #f2e30c;
+  color: #000;
+  border-radius: 15px 0;
+  margin:40px 80px;
+  line-height: 1.4;
+}
+
+cite{
+  display: block;
+  text-align: right;
+  font-size: .7rem;
+  margin-top: 1rem;
+}
+
 
 aside[role="complementary"]{
   background-color:#3565F2;
@@ -287,4 +328,4 @@ aside.container{
   #content{
     flex-direction:column;
   }
-}
+  }
